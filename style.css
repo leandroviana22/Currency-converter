@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    outline: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    width: 480px;
+    min-height: 384px;
+    padding: 56px 64px;
+    margin: 0 auto;
+    background-color: #141534;
+    border-radius: 24px 24px 0 0;
+}
+
+label {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #B2B8DE;
+}
+
+.currencySelect,
+.input-field,
+.convertButton {
+    border-radius: 8px;
+    width: 100%;
+    height: 52px;
+    border: none;
+    color: #F1F2F6;
+    padding: 10px;
+}
+
+.input-field,
+.currencySelect {
+    font-size: 17px;
+    background-color: #0E0F25;
+    margin: 14px 0;
+    border: 1px solid #1F2151;
+}
+
+.convertButton {
+    margin-top: 34px;
+    cursor: pointer;
+    background-color: #2F34AB;
+}
+
+.convertButton:hover {
+    opacity: .8;
+}
+
+.convertButton:active {
+    opacity: .7;
+}
+
+.result-section {
+    width: 480px;
+    height: 156px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    background-color: #1F2151;
+    border-radius: 0 0 24px 24px;
+}
+
+.div-section {
+    display: flex;
+    gap: 16px;
+}
+
+.div-section p {
+    font-size: 20px;
+    color: #7D8DEC;
+}
+
+.result-section h2 {
+    font-size: 30px;
+    color: #F1F2F6;
+}

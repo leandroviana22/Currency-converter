@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="main-container">
+        <label for="valor">
+            Valor
+            <input id="valor" type="number" class="input-field" placeholder="Digite o valor em reais">
+        </label>
+
+        <label>
+            Moeda
+            <select class="currencySelect">
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+            </select>
+        </label>
+
+        <button class="convertButton">Converter</button>
+    </main>
+
+    <section class="result-section">
+        <div class="div-section">
+            <p class="numberToConvert">R$ 0,00</p>
+
+            <p>=</p>
+
+            <p class="convertedNumber">US$ 0.0</p>
+        </div>
+
+        <h2 class="endResult">0,00 Dolar</h2>
+    </section>
+</body>
+<script src="scripts.js"></script>
+</html>
