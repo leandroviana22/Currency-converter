@@ -20,9 +20,8 @@ body {
     background-size: cover;
 }
 
-.main{
+.main {
     max-width: 480px;
-    padding: 30px;
 }
 
 .main-container {
@@ -99,4 +98,10 @@ label {
 .result-section h2 {
     font-size: 30px;
     color: #F1F2F6;
+}
+
+@media screen and (max-width: 34.375em) {
+    .main {
+        padding: 30px;
+    }
 }
