@@ -20,8 +20,13 @@ body {
     background-size: cover;
 }
 
+.main{
+    max-width: 480px;
+    padding: 30px;
+}
+
 .main-container {
-    width: 480px;
+    max-width: 480px;
     min-height: 384px;
     padding: 56px 64px;
     margin: 0 auto;
@@ -69,7 +74,7 @@ label {
 }
 
 .result-section {
-    width: 480px;
+    width: 100%;
     height: 156px;
     display: flex;
     flex-direction: column;
